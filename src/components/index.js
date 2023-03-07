@@ -1,0 +1,1 @@
+export {default as appCubes} from './app-Cubes/appCube.js'
