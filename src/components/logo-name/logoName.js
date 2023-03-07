@@ -18,4 +18,5 @@ class logoName extends HTMLElement{
         `
     }
 }
+customElements.define('logo-name',logoName)
 export default logoName;
