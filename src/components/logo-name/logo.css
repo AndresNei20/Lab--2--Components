@@ -1,0 +1,17 @@
+h1 {
+    color: black;
+
+}
+
+.logo-image{
+    width:200px;
+    object-fit: contain;
+}
+
+.logo{
+    display: flex;
+    flex-direction: row;
+    align-content: stretch;
+    justify-content: center;
+    align-items: center;
+}
