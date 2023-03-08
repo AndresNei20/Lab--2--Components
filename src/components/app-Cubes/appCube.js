@@ -17,15 +17,15 @@ class appCubes extends HTMLElement {
 
     render() {
       
-        // Crea un arreglo de imagenes
- /*        const images = [
+      
+       const images = [
           "../../../dist/.pngs/deepl.png",
           "../../../dist/.pngs/deepl.png",
           "../../../dist/.pngs/deepl.png",
           "../../../dist/.pngs/gitHub.png"
         ];
         
-        //Crea mi variable que almacenará la injeccion de cada componente "marcaador"
+    
         let htmlContenido = "";
 
         //Se hace un for donde añado el index de mi imagen a el src de cada "marcador"
@@ -35,35 +35,15 @@ class appCubes extends HTMLElement {
               <img src="${images[i]}" alt="">
             </section>
           `;
-        }
-        
+        } 
         //Añado estilos porque no los coje del link de mi html
         this.shadowRoot.innerHTML = `
-        <style> .marcadores{
-            margin-top: 100px;
-            display: flex;
-            flex-direction: row;
-            justify-content: space-around;
-        }
-        
-        .marcador{
-            display: flex;
-            width: 150px;
-            height: 150px;
-            box-shadow: 5px 5px 5px rgb(193 193 193);
-            justify-content: center;
-        }
-        
-        .marcador img {
-            width: 100px;
-            object-fit: contain;
-        }
-        </style>
+        <link rel="stylesheet" href="./appCubes.css">
         <div id="marcadores" class="marcadores">
-        ${ //Añado mi variable que contiene cada uno de los componentes previo
-            htmlContenido}
-    </div>`; */
+        ${htmlContenido}
+    </div>`; 
       }
 }
 
 customElements.define("app-cubes", appCubes);
+export default appCubes
