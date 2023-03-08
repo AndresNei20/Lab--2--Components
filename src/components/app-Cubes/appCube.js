@@ -16,9 +16,9 @@ class appCubes extends HTMLElement {
     }
 
     render() {
-
+      
         // Crea un arreglo de imagenes
-        const images = [
+ /*        const images = [
           "../../../dist/.pngs/deepl.png",
           "../../../dist/.pngs/deepl.png",
           "../../../dist/.pngs/deepl.png",
@@ -62,7 +62,7 @@ class appCubes extends HTMLElement {
         <div id="marcadores" class="marcadores">
         ${ //Añado mi variable que contiene cada uno de los componentes previo
             htmlContenido}
-    </div>`;
+    </div>`; */
       }
 }
 

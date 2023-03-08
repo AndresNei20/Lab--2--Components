@@ -1,5 +1,4 @@
-import "./components/index.js"
-
+import * as components from "./components/index.js"; 
 class AppContainer extends HTMLElement{
     constructor(){
         super();

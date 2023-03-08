@@ -12,7 +12,7 @@ class logoName extends HTMLElement{
         this.shadowRoot.innerHTML = `
         <link rel="stylesheet" href="../src/components/logo-name/logo.css">
         <section id="logo" class="logo"> 
-            <img class="logo-image" src="chrome://branding/content/about-logo.png" alt="">
+            <img class="logo-image" src="https://1000marcas.net/wp-content/uploads/2020/01/logo-Mozilla-Firefox.png" alt="">
             <h1> FireFox </h1>
         </section>
         `
