@@ -38,7 +38,7 @@ class appCubes extends HTMLElement {
         } 
         //Añado estilos porque no los coje del link de mi html
         this.shadowRoot.innerHTML = `
-        <link rel="stylesheet" href="./appCubes.css">
+        <link rel="stylesheet" href="../src/components/app-Cubes/appCube.css">">
         <div id="marcadores" class="marcadores">
         ${htmlContenido}
     </div>`; 
