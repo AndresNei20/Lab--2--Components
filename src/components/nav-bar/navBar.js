@@ -13,7 +13,7 @@ class navBar extends HTMLElement{
         <link rel="stylesheet" href="/src/components/nav-bar/navBar.css">
         <section id="input" class="input"> 
             <img src="https://img.freepik.com/iconos-gratis/buscar_318-265146.jpg" alt="">
-            <input type="text" placeholder="Buscar con google o introducir una direccion">
+            <input type="text" placeholder="Search with google or use an URL">
         </section>
         `
     }

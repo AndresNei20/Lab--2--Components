@@ -1,4 +1,4 @@
-import * as components from "./components/index.js";
+import "./components/index.js"
 
 class AppContainer extends HTMLElement{
     constructor(){
@@ -11,10 +11,10 @@ class AppContainer extends HTMLElement{
     }
 
     render(){
-        const section = document.createElement('section');
-        const logoName = document.createElement('logoName')
-        section.appendChild(logoName);
-        this.shadowRoot.appendChild(section);
+        this.shadowRoot.innerHTML= ` 
+        <logo-name></logo-name>
+        <nav-bar></nav-bar>
+        `
     }
 
 }
