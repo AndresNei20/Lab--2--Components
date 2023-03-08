@@ -2,55 +2,54 @@ export default [
     {
       name: "Git Hub",
       thumbnail:
-        "https://as01.epimg.net/meristation/imagenes/2021/10/25/noticias/1635151110_716951_1635151285_noticia_normal.jpg",
+        "../../../dist/.pngs/gitHub.png",
       
     },
     {
         name: "DeepL",
         thumbnail:
-          "https://as01.epimg.net/meristation/imagenes/2021/10/25/noticias/1635151110_716951_1635151285_noticia_normal.jpg",
+        "../../../dist/.pngs/deepl.png",
         
       },
       
       {
         name: "Google Drive",
-        thumbnail:
-          "https://as01.epimg.net/meristation/imagenes/2021/10/25/noticias/1635151110_716951_1635151285_noticia_normal.jpg",
+        thumbnail:"https://1000marcas.net/wp-content/uploads/2021/06/Google-Drive-logo.png",
         
       },
       
       {
         name: "Youtube",
         thumbnail:
-          "https://as01.epimg.net/meristation/imagenes/2021/10/25/noticias/1635151110_716951_1635151285_noticia_normal.jpg",
+          "../../../dist/.pngs/youtube.png",
         
       },
       
       {
         name: "Netflix",
         thumbnail:
-          "https://as01.epimg.net/meristation/imagenes/2021/10/25/noticias/1635151110_716951_1635151285_noticia_normal.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/Netflix-new-icon.png/768px-Netflix-new-icon.png",
         
       },
       
       {
         name: "Miro",
         thumbnail:
-          "https://as01.epimg.net/meristation/imagenes/2021/10/25/noticias/1635151110_716951_1635151285_noticia_normal.jpg",
+        "../../../dist/.pngs/miro.png",
         
       },
       
       {
         name: "nodeJS",
         thumbnail:
-          "https://as01.epimg.net/meristation/imagenes/2021/10/25/noticias/1635151110_716951_1635151285_noticia_normal.jpg",
+        "../../../dist/.pngs/nodejs.png",
         
       },
       
       {
         name: "Hackerrun",
         thumbnail:
-          "https://as01.epimg.net/meristation/imagenes/2021/10/25/noticias/1635151110_716951_1635151285_noticia_normal.jpg",
+        "../../../dist/.pngs/hackerrun.png",
         
       },
     
