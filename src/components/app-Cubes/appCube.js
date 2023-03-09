@@ -19,18 +19,25 @@ class appCubes extends HTMLElement {
     }
 
     render() {
-        data.forEach((data) => {
-            this.shadowRoot.innerHTML += `
-            <link rel="stylesheet" href="../src/components/app-Cubes/appCube.css">
-            <div id="marcador" class="marcador"> 
-            <img src="${data.thumbnail}" alt=""> 
-            <h6>${data.name}</h6> 
-            </div>
 
-    `
+        let htmlContent = "";
+
+        data.forEach((data) => {
+            htmlContent += 
+            `<div id="marcador" class="marcador"> 
+            <img src="${data.thumbnail}" alt=""> 
+            <h6>${data.name}</h6>
+            </div>
+            `  
         })
 
+        this.shadowRoot.innerHTML += `
+        <link rel="stylesheet" href="../src/components/app-Cubes/appCube.css">
+        <div id = "marcadores" class="marcadores">
+        ${htmlContent}
+        </div>
 
+`
 
     }
 

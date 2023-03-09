@@ -11,11 +11,9 @@ class AppContainer extends HTMLElement{
 
     render(){
         this.shadowRoot.innerHTML= ` 
-        <link rel="stylesheet" href="../src/index.css">
         <logo-name></logo-name>
         <nav-bar></nav-bar>
-        <section id= "contenedor">
-        <app-cubes></app-cubes></section>
+        <app-cubes></app-cubes>
         
         `
     }

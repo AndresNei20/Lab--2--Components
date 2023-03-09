@@ -13,8 +13,8 @@ export default [
       },
       
       {
-        name: "Google Drive",
-        thumbnail:"https://1000marcas.net/wp-content/uploads/2021/06/Google-Drive-logo.png",
+        name: "Gmail",
+        thumbnail:"https://cdn-icons-png.flaticon.com/512/281/281769.png",
         
       },
       
@@ -40,7 +40,7 @@ export default [
       },
       
       {
-        name: "nodeJS",
+        name: "NodeJS",
         thumbnail:
         "../../../dist/.pngs/nodejs.png",
         

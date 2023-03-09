@@ -1,20 +1,42 @@
 
 .marcador{
     margin-top: 10px;
-    width: 150px;
-    height: 150px;
+    width: 130px;
+    height: 120px;
     box-shadow: 5px 5px 5px rgb(193 193 193);
-    background-color: aqua;
+    background-color:none;
+    border-radius: 10px;
+    border: 1.5px solid rgb(238, 230, 230);
     display:flex;
     flex-direction: column;
     margin-left: 0;
     align-items: center;
     padding: 0px;
     padding-top: 8px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+
+.marcador:hover{
+    margin-top: 10px;
+    width: 152px;
+    height: 152px;
+    box-shadow: 10px 10px 10px rgb(173, 170, 170);
+    background-color:rgb(215, 212, 212);
+    border-radius: 10px;
+    border: none;
+   
 
 }
 
 .marcador img {
     width: 100px;
     object-fit: contain;
+}
+
+.marcadores {
+    margin-top: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
 }
