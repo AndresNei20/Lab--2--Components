@@ -1,0 +1,17 @@
+span{
+    margin-left: 1150px;
+}
+button{
+    width: 35px;
+    object-fit: contain;
+    background-color: white;
+    border: none;
+    cursor: pointer;
+}
+button:hover{
+     background-color:rgb(215, 212, 212);;
+}
+img{
+    width: 20px;
+    object-fit: contain;
+}
